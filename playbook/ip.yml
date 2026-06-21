@@ -1,0 +1,36 @@
+---
+- name: 静态ip配置 
+  hosts: old
+  tasks:
+    - name: 设置为手动模式
+      community.general.ini_file:
+        path: "/etc/NetworkManager/system-connections/{{ansible_default_ipv4.alias}}.nmconnection"
+        section: ipv4
+        option: method
+        value: manual 
+        no_extra_spaces: yes
+    - name: 配置ip
+      community.general.ini_file:
+        path: "/etc/NetworkManager/system-connections/{{ansible_default_ipv4.alias}}.nmconnection"
+        section: ipv4
+        option: address1
+        value: "{{new_ip}}"
+        no_extra_spaces: yes
+    - name: 配置gatway
+      community.general.ini_file:
+        path: "/etc/NetworkManager/system-connections/{{ansible_default_ipv4.alias}}.nmconnection"
+        section: ipv4
+        option: gatway
+        value: 192.168.100.2
+        no_extra_spaces: yes
+    - name: 配置dns
+      community.general.ini_file:
+        path: "/etc/NetworkManager/system-connections/{{ansible_default_ipv4.alias}}.nmconnection"
+        section: ipv4
+        option: dns
+        value: 8.8.8.8
+        no_extra_spaces: yes
+    - name: 使配置文件生效并重新加载网卡
+      shell:  nmcli con reload && nmcli con up "{{ansible_default_ipv4.alias}}"
+      async: 10
+      poll: 0

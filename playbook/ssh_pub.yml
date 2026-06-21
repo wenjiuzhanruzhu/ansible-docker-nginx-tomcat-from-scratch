@@ -1,0 +1,10 @@
+---
+- name: 分发公钥
+  hosts: all
+  tasks:
+    - name:
+      ansible.posix.authorized_key:
+        user: root
+        key: "{{ lookup('file', 'sshkey/id_ed25519.pub') }}"
+        state: present
+

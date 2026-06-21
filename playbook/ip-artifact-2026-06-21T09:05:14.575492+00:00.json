@@ -1,0 +1,316 @@
+{
+    "plays": [
+        {
+            "___progress": "100%",
+            "__changed": 0,
+            "__failed": 0,
+            "__ignored": 0,
+            "__in progress": 0,
+            "__ok": 0,
+            "__percent_complete": 100,
+            "__play_name": "old",
+            "__progress": "Complete",
+            "__skipped": 0,
+            "__task_count": 4,
+            "__unreachable": 4,
+            "name": "old",
+            "pattern": "old",
+            "play": "old",
+            "play_pattern": "old",
+            "play_uuid": "5b6af2fb-24c4-a8a6-affd-000000000009",
+            "playbook": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml",
+            "playbook_uuid": "ebdf7ff6-b3b3-4912-bb19-e8138ec73f37",
+            "tasks": [
+                {
+                    "__changed": false,
+                    "__duration": "3s",
+                    "__host": "192.168.100.10",
+                    "__number": 0,
+                    "__result": "Unreachable",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 3.131775,
+                    "end": "2026-06-21T09:05:14.206648+00:00",
+                    "host": "192.168.100.10",
+                    "play": "old",
+                    "play_pattern": "old",
+                    "play_uuid": "5b6af2fb-24c4-a8a6-affd-000000000009",
+                    "playbook": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml",
+                    "playbook_uuid": "ebdf7ff6-b3b3-4912-bb19-e8138ec73f37",
+                    "remote_addr": "192.168.100.10",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "changed": false,
+                        "exception": "(traceback unavailable)",
+                        "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.10 port 22: No route to host",
+                        "unreachable": true
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2026-06-21T09:05:11.074873+00:00",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml:2",
+                    "task_uuid": "5b6af2fb-24c4-a8a6-affd-000000000011",
+                    "uuid": "66be3ff8-dfbd-41a8-911f-6b7c95e44b8a"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "3s",
+                    "__host": "192.168.100.11",
+                    "__number": 1,
+                    "__result": "Unreachable",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 3.128413,
+                    "end": "2026-06-21T09:05:14.210502+00:00",
+                    "host": "192.168.100.11",
+                    "play": "old",
+                    "play_pattern": "old",
+                    "play_uuid": "5b6af2fb-24c4-a8a6-affd-000000000009",
+                    "playbook": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml",
+                    "playbook_uuid": "ebdf7ff6-b3b3-4912-bb19-e8138ec73f37",
+                    "remote_addr": "192.168.100.11",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "changed": false,
+                        "exception": "(traceback unavailable)",
+                        "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.11 port 22: No route to host",
+                        "unreachable": true
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2026-06-21T09:05:11.082089+00:00",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml:2",
+                    "task_uuid": "5b6af2fb-24c4-a8a6-affd-000000000011",
+                    "uuid": "c572ae25-913a-41c0-95ca-943104e7e341"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "3s",
+                    "__host": "192.168.100.13",
+                    "__number": 2,
+                    "__result": "Unreachable",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 3.120828,
+                    "end": "2026-06-21T09:05:14.208982+00:00",
+                    "host": "192.168.100.13",
+                    "play": "old",
+                    "play_pattern": "old",
+                    "play_uuid": "5b6af2fb-24c4-a8a6-affd-000000000009",
+                    "playbook": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml",
+                    "playbook_uuid": "ebdf7ff6-b3b3-4912-bb19-e8138ec73f37",
+                    "remote_addr": "192.168.100.13",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "changed": false,
+                        "exception": "(traceback unavailable)",
+                        "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.13 port 22: No route to host",
+                        "unreachable": true
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2026-06-21T09:05:11.088154+00:00",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml:2",
+                    "task_uuid": "5b6af2fb-24c4-a8a6-affd-000000000011",
+                    "uuid": "89ed2837-e236-4dcb-abd3-8084af734893"
+                },
+                {
+                    "__changed": false,
+                    "__duration": "3s",
+                    "__host": "192.168.100.15",
+                    "__number": 3,
+                    "__result": "Unreachable",
+                    "__task": "Gathering Facts",
+                    "__task_action": "gather_facts",
+                    "duration": 3.114376,
+                    "end": "2026-06-21T09:05:14.209758+00:00",
+                    "host": "192.168.100.15",
+                    "play": "old",
+                    "play_pattern": "old",
+                    "play_uuid": "5b6af2fb-24c4-a8a6-affd-000000000009",
+                    "playbook": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml",
+                    "playbook_uuid": "ebdf7ff6-b3b3-4912-bb19-e8138ec73f37",
+                    "remote_addr": "192.168.100.15",
+                    "res": {
+                        "_ansible_no_log": false,
+                        "changed": false,
+                        "exception": "(traceback unavailable)",
+                        "msg": "Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.15 port 22: No route to host",
+                        "unreachable": true
+                    },
+                    "resolved_action": "ansible.builtin.gather_facts",
+                    "start": "2026-06-21T09:05:11.095382+00:00",
+                    "task": "Gathering Facts",
+                    "task_action": "gather_facts",
+                    "task_args": "",
+                    "task_path": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml:2",
+                    "task_uuid": "5b6af2fb-24c4-a8a6-affd-000000000011",
+                    "uuid": "d94548b0-d5d9-4532-9efd-c94070c92d4f"
+                }
+            ],
+            "uuid": "5b6af2fb-24c4-a8a6-affd-000000000009"
+        }
+    ],
+    "settings_entries": {
+        "ansible-navigator": {
+            "ansible": {
+                "config": {
+                    "help": false
+                },
+                "doc": {
+                    "help": false,
+                    "plugin": {
+                        "type": "module"
+                    }
+                },
+                "inventory": {
+                    "entries": [
+                        "/root/ansible-docker-nginx-tomcat-from-scratch/inventory.yml"
+                    ],
+                    "help": false
+                },
+                "playbook": {
+                    "help": false,
+                    "path": "/root/ansible-docker-nginx-tomcat-from-scratch/playbook/ip.yml"
+                }
+            },
+            "ansible-builder": {
+                "help": false,
+                "workdir": "/root/ansible-docker-nginx-tomcat-from-scratch"
+            },
+            "ansible-runner": {
+                "job-events": false
+            },
+            "app": "run",
+            "collection-doc-cache-path": "/root/.cache/ansible-navigator/collection_doc_cache.db",
+            "color": {
+                "enable": true,
+                "osc4": true
+            },
+            "editor": {
+                "command": "vi +{line_number} {filename}",
+                "console": true
+            },
+            "enable-prompts": false,
+            "exec": {
+                "command": "/bin/bash",
+                "shell": true
+            },
+            "execution-environment": {
+                "container-engine": "podman",
+                "enabled": true,
+                "image": "ghcr.io/ansible/community-ansible-dev-tools:latest",
+                "pull": {
+                    "policy": "tag"
+                }
+            },
+            "format": "yaml",
+            "images": {
+                "details": [
+                    "everything"
+                ]
+            },
+            "logging": {
+                "append": true,
+                "file": "/root/ansible-docker-nginx-tomcat-from-scratch/ansible-navigator.log",
+                "level": "warning"
+            },
+            "mode": "interactive",
+            "playbook-artifact": {
+                "enable": true,
+                "save-as": "{playbook_dir}/{playbook_name}-artifact-{time_stamp}.json"
+            },
+            "settings": {
+                "effective": false,
+                "sample": false,
+                "schema": "json",
+                "sources": false
+            },
+            "time-zone": "UTC"
+        }
+    },
+    "settings_sources": {
+        "ansible-navigator.ansible-builder.help": "Defaults",
+        "ansible-navigator.ansible-builder.workdir": "Defaults",
+        "ansible-navigator.ansible-lint.config": "Not set",
+        "ansible-navigator.ansible-lint.lintables": "Not set",
+        "ansible-navigator.ansible-runner.artifact-dir": "Not set",
+        "ansible-navigator.ansible-runner.job-events": "Defaults",
+        "ansible-navigator.ansible-runner.rotate-artifacts-count": "Not set",
+        "ansible-navigator.ansible-runner.timeout": "Not set",
+        "ansible-navigator.ansible.cmdline": "Not set",
+        "ansible-navigator.ansible.config.help": "Defaults",
+        "ansible-navigator.ansible.config.path": "Not set",
+        "ansible-navigator.ansible.doc.help": "Defaults",
+        "ansible-navigator.ansible.doc.plugin.name": "Not set",
+        "ansible-navigator.ansible.doc.plugin.type": "Defaults",
+        "ansible-navigator.ansible.inventory.entries": "Ansible configuration file",
+        "ansible-navigator.ansible.inventory.help": "Defaults",
+        "ansible-navigator.ansible.playbook.help": "Defaults",
+        "ansible-navigator.ansible.playbook.path": "Previous cli command",
+        "ansible-navigator.app": "Command line",
+        "ansible-navigator.collection-doc-cache-path": "Defaults",
+        "ansible-navigator.color.enable": "Defaults",
+        "ansible-navigator.color.osc4": "Defaults",
+        "ansible-navigator.editor.command": "Defaults",
+        "ansible-navigator.editor.console": "Defaults",
+        "ansible-navigator.enable-prompts": "Defaults",
+        "ansible-navigator.exec.command": "Defaults",
+        "ansible-navigator.exec.shell": "Defaults",
+        "ansible-navigator.execution-environment.container-engine": "Automatically determined",
+        "ansible-navigator.execution-environment.container-options": "Not set",
+        "ansible-navigator.execution-environment.enabled": "Defaults",
+        "ansible-navigator.execution-environment.environment-variables.pass": "Not set",
+        "ansible-navigator.execution-environment.environment-variables.set": "Not set",
+        "ansible-navigator.execution-environment.image": "Defaults",
+        "ansible-navigator.execution-environment.pull.arguments": "Not set",
+        "ansible-navigator.execution-environment.pull.policy": "Defaults",
+        "ansible-navigator.execution-environment.volume-mounts": "Not set",
+        "ansible-navigator.format": "Defaults",
+        "ansible-navigator.images.details": "Defaults",
+        "ansible-navigator.inventory-columns": "Not set",
+        "ansible-navigator.logging.append": "Defaults",
+        "ansible-navigator.logging.file": "Defaults",
+        "ansible-navigator.logging.level": "Defaults",
+        "ansible-navigator.mode": "Defaults",
+        "ansible-navigator.playbook-artifact.enable": "Defaults",
+        "ansible-navigator.playbook-artifact.replay": "Not set",
+        "ansible-navigator.playbook-artifact.save-as": "Defaults",
+        "ansible-navigator.settings.effective": "Defaults",
+        "ansible-navigator.settings.sample": "Defaults",
+        "ansible-navigator.settings.schema": "Defaults",
+        "ansible-navigator.settings.sources": "Defaults",
+        "ansible-navigator.time-zone": "Defaults",
+        "settings_file_path": "None",
+        "settings_file_source": "None"
+    },
+    "status": "failed",
+    "status_color": 9,
+    "stdout": [
+        "",
+        "PLAY [old] *********************************************************************",
+        "",
+        "TASK [Gathering Facts] *********************************************************",
+        "\u001b[0;31m[ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.10 port 22: No route to host\u001b[0m",
+        "\u001b[1;31mfatal: [192.168.100.10]: UNREACHABLE! => {\"changed\": false, \"msg\": \"Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.10 port 22: No route to host\", \"unreachable\": true}\u001b[0m",
+        "\u001b[0;31m[ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.13 port 22: No route to host\u001b[0m",
+        "\u001b[1;31mfatal: [192.168.100.13]: UNREACHABLE! => {\"changed\": false, \"msg\": \"Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.13 port 22: No route to host\", \"unreachable\": true}\u001b[0m",
+        "\u001b[0;31m[ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.15 port 22: No route to host\u001b[0m",
+        "\u001b[1;31mfatal: [192.168.100.15]: UNREACHABLE! => {\"changed\": false, \"msg\": \"Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.15 port 22: No route to host\", \"unreachable\": true}\u001b[0m",
+        "\u001b[0;31m[ERROR]: Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.11 port 22: No route to host\u001b[0m",
+        "\u001b[1;31mfatal: [192.168.100.11]: UNREACHABLE! => {\"changed\": false, \"msg\": \"Task failed: Failed to connect to the host via ssh: ssh: connect to host 192.168.100.11 port 22: No route to host\", \"unreachable\": true}\u001b[0m",
+        "",
+        "PLAY RECAP *********************************************************************",
+        "\u001b[0;31m192.168.100.10\u001b[0m             : ok=0    changed=0    \u001b[1;31munreachable=1   \u001b[0m failed=0    skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31m192.168.100.11\u001b[0m             : ok=0    changed=0    \u001b[1;31munreachable=1   \u001b[0m failed=0    skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31m192.168.100.13\u001b[0m             : ok=0    changed=0    \u001b[1;31munreachable=1   \u001b[0m failed=0    skipped=0    rescued=0    ignored=0   ",
+        "\u001b[0;31m192.168.100.15\u001b[0m             : ok=0    changed=0    \u001b[1;31munreachable=1   \u001b[0m failed=0    skipped=0    rescued=0    ignored=0   "
+    ],
+    "version": "2.0.0"
+}
